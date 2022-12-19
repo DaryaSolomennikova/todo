@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaryaSolomennikova/todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaryaSolomennikova/todo/issues"
+  },
+  "homepage": "https://github.com/DaryaSolomennikova/todo#readme",
+  "dependencies": {
+    "parcel": "^2.8.1",
+    "sass": "^1.56.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.1"
+  }
+}

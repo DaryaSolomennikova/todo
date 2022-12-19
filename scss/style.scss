@@ -1,0 +1,81 @@
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-delAll{
+    width: 15%;
+    height: 38px;
+    margin: 20px;
+    background-color: rgb(235, 9, 9);
+    border-radius: 25px;
+}
+
+.btn-dellLast{
+    width: 25%;
+    height: 38px;
+    margin: 20px;
+    background-color: rgb(250, 77, 14);
+    border-radius: 25px;
+}
+
+.btn-add{
+    width: 15%;
+    height: 38px;
+    margin: 20px;
+    background-color: rgb(8, 162, 8);
+    border-radius: 25px;
+}
+
+.btn-showAll{
+    width: 25%;
+    height: 38px;
+    margin: 20px;
+    background-color: rgb(15, 91, 244);
+    border-radius: 25px;
+}
+
+.btn-showCompleted{
+    width: 25%;
+    height: 38px;
+    margin: 20px;
+    background-color: rgb(249, 245, 11);
+    border-radius: 25px;
+}
+
+#forms{
+    display: flex;
+    height: 38px;
+    margin: auto;
+}
+
+span{
+    margin: 16px;
+}
+
+.list_group li{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #000;
+}
+
+.trash{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+}
+
+.field p{
+    margin: 20px;
+}
+
